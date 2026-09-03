@@ -139,9 +139,9 @@ body.loading{
         width: 300px;
     }
     
-    .nav-arrow{
+    /* .nav-arrow{
         display: none;
-    }
+    } */
 
     .projects-carousel{
         overflow-x: auto !important;
