@@ -147,3 +147,46 @@ body.loading{
         overflow-x: auto !important;
     }
 }
+
+/* button et google stranslate */
+/* Masquer la bannière supérieure et le widget d'origine */
+
+.goog-te-banner-frame,
+.skiptranslate,
+#google_translate_element {
+    display: none !important;
+}
+
+/* Éviter le décalage de mise en page */
+.goog-text-highlight {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Style des boutons personnalisés */
+.language-selector {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.lang-btn img {
+    width: 20px;
+    height: 15px;
+    border-radius: 2px;
+}
+
+.lang-btn:hover {
+    background-color: #e4e7ed;
+}
